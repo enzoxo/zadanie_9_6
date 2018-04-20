@@ -4,7 +4,7 @@ var add = document.getElementById('addElem');
 add.addEventListener('click', function(){
 	var element = document.createElement('li');
 	
-	var number = list.document.getElementsByTagName('li').length;
+	var number = document.list.getElementsByTagName('li').length;
 	element.innerHTML = "item " + number;
 	list.appendChild(element);
 });
